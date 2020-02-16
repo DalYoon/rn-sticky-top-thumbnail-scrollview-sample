@@ -1,6 +1,6 @@
 import React from 'react';
 import {Animated} from 'react-native';
-import BouncingThumbnailPresenter from './BouncingThumbnailPresenter';
+import StickyTopThumbnailScrollviewPresenter from './StickyTopThumbnailScrollviewPresenter';
 
 export default () => {
   const animationScale = new Animated.Value(0);
@@ -28,7 +28,7 @@ export default () => {
   };
 
   return (
-    <BouncingThumbnailPresenter
+    <StickyTopThumbnailScrollviewPresenter
       scrollListener={scrollListener}
       thumbnailDefaultSize={thumbnailDefaultSize}
       thumbnailTop={thumbnailTop}

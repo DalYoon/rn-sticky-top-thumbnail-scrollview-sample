@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components/native';
-import BouncingThumbnail from './BouncingThumbnail';
+import StickyTopThumbnailScrollview from './StickyTopThumbnailScrollview';
 
 export default () => (
   <Container>
-    <BouncingThumbnail />
+    <StickyTopThumbnailScrollview />
   </Container>
 );
 
